@@ -16,5 +16,5 @@ Embarking on my Ph.D. journey at the age of 21, amidst the hustle and bustle of 
 
 🌼🌸🌻🌺
 
-Từ Chuyên ANH Chuyên Trần Đại Nghĩa đến Chuyên VĂN Phổ Thông Năng Khiếu đến GPA 4.1665/4.0000 đến Tiến Sĩ TOÁN yayyyyy 
+Từ Chuyên ANH Chuyên Trần Đại Nghĩa đến Chuyên VĂN Phổ Thông Năng Khiếu Đại Học Quốc Gia Thành Phố Hồ Chí Minh đến GPA 4.1665/4.0000 đến Tiến Sĩ TOÁN yayyyyy 
 
