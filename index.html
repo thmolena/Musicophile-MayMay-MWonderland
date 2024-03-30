@@ -48,12 +48,13 @@ body {
 
     #credit {
         position: static;
-  color: #000000;
-  font-size: 2vw;
+  color: #dd0000;
+  font-size: 1vw;
   white-space: nowrap; /* Ensure text doesn't break into multiple lines */
   text-overflow: ellipsis;
   overflow: hidden;
   z-index: 100;
+   top: 100%;
     }
 
     
@@ -101,7 +102,7 @@ body {
     #theTitle {
         position: static;
   font-size: calc(1.5vw + 1.5vh);
-      /* padding: 0; */
+      padding: 20;
       border: 8px solid transparent; /* Transparent border */
       border-radius: 2px;
       background: linear-gradient(to right, #ff0000, #0099ff, rgb(255, 0, 119));
@@ -125,6 +126,7 @@ body {
 <body>
 
   <div class="container">
+    <div id="credit"></div>
     <div id="theTitle"></div>
     <button id="playButton">🎵▶ Musicophile MayMay's Piano Cover </button>
     <div id="arrowContainer">
@@ -134,7 +136,6 @@ body {
       </div>  
       <div id="rightArrow" onclick="changeImage(1)">→</div>
       </div>
-    <div id="credit"></div>
     <audio id="audio" src="maymaycover.mp3"></audio>
   </div>
 
@@ -196,7 +197,7 @@ body {
     document.getElementById("theTitle").textContent = "🎼🎵 Musicophile MayMay MWonderland 🎵🎼";
 
     // Set the text content of the "credit" div
-    document.getElementById("credit").textContent = "Credit goes to @_.musicophile_._maymay._ during her @_.phdjourneyat21._ ❤️";
+    document.getElementById("credit").textContent = "❤️ Credit goes to @_.musicophile_._maymay._ during her @_.phdjourneyat21._ ❤️";
 
 
 
