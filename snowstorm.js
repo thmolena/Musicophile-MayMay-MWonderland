@@ -30,9 +30,9 @@ var snowStorm = (function(window, document) {
   this.snowStick = false;          // Whether or not snow should "stick" at the bottom. When off, will never collect.
   this.targetElement = null;      // element which snow will be appended to (null = document.body) - can be an element ID eg. 'myDiv', or a DOM node reference
   this.useMeltEffect = true;      // When recycling fallen snow (or rarely, when falling), have it "melt" and fade out if browser supports it
-  this.useTwinkleEffect = false;  // Allow snow to randomly "flicker" in and out of view while falling
+  this.useTwinkleEffect = true;  // Allow snow to randomly "flicker" in and out of view while falling
   this.usePositionFixed = false;  // true = snow does not shift vertically when scrolling. May increase CPU load, disabled by default - if enabled, used only where supported
-  this.usePixelPosition = false;  // Whether to use pixel values for snow top/left vs. percentages. Auto-enabled if body is position:relative or targetElement is specified.
+  this.usePixelPosition = true;  // Whether to use pixel values for snow top/left vs. percentages. Auto-enabled if body is position:relative or targetElement is specified.
 
   // --- less-used bits ---
 
@@ -40,8 +40,8 @@ var snowStorm = (function(window, document) {
   this.freezeOnBlur = true;       // Only snow when the window is in focus (foreground.) Saves CPU.
   this.flakeLeftOffset = 0;       // Left margin/gutter space on edge of container (eg. browser window.) Bump up these values if seeing horizontal scrollbars.
   this.flakeRightOffset = 0;      // Right margin/gutter space on edge of container
-  this.flakeWidth = 16;            // Max pixel width reserved for snow element
-  this.flakeHeight = 16;           // Max pixel height reserved for snow element
+  this.flakeWidth = 32;            // Max pixel width reserved for snow element
+  this.flakeHeight = 32;           // Max pixel height reserved for snow element
   this.vMaxX = 32;                 // Maximum X velocity range for snow
   this.vMaxY = 32;                 // Maximum Y velocity range for snow
   this.zIndex = 1;                // CSS stacking order applied to each snowflake
