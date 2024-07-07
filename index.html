@@ -163,7 +163,7 @@ body {
     function startAutoChange() {
       clearInterval(intervalId); // Clear any existing interval
 
-      // Set interval to change image every 2 seconds
+      // Set interval to change image every 1.1 seconds
       intervalId = setInterval(() => {
         currentImageIndex++;
 
@@ -174,7 +174,7 @@ body {
 
         const imageElement = document.getElementById('image');
         imageElement.src = `pictures/pic${currentImageIndex}.png`;
-      }, 1500); // 1500 milliseconds
+      }, 1100); // 1100 milliseconds
     }
     
 
